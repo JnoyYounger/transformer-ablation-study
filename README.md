@@ -222,5 +222,3 @@ python collect_results.py
 - 日志记录：`training_logger.py`
 - 汇总结果：`collect_results.py`
 - 可视化：`visualizer.py`, `plot_training.py`
-
-如需自定义实验或扩展模块，请从 `args_parser.py` 添加参数开始，并在 `main.py` 或 `run_ablation.py` 中接入。日志与模型保存路径均可通过命令行灵活配置。
